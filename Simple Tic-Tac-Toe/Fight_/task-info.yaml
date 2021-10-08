@@ -462,7 +462,7 @@ feedback:
     Wrong answer in test #1
 
     Can&#39;t parse final result, should contain &quot;Draw&quot;, &quot;X wins&quot; or &quot;O wins&quot;.
-    Your last line: &quot;_&quot;
+    Your last line: &quot;---------&quot;
 
     Please find below the output of your program during this failed test.
     Note that the &#39;&gt;&#39; character indicates the beginning of the input line.
@@ -477,23 +477,17 @@ feedback:
     ---------
     &gt; 4 3
     Coordinates should be from 1 to 3!
-    &gt; 4 4
-    Coordinates should be from 1 to 3!
-    &gt; 1 4
-    Coordinates should be from 1 to 3!
-    &gt; 1 3
+    &gt; 1 2
     ---------
-    | _ _ X |
+    | _ X _ |
     | _ _ _ |
     | _ _ _ |
     ---------
-    _
-    &gt; 3 2
+    &gt; 2 3
     ---------
-    | _ _ X |
+    | _ X _ |
+    | _ _ O |
     | _ _ _ |
-    | _ O _ |
     ---------
-    _
-  time: Wed, 06 Oct 2021 12:40:22 UTC
+  time: Fri, 08 Oct 2021 18:02:11 UTC
 record: -1
